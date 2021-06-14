@@ -1,0 +1,137 @@
+#container {
+  display: inline-grid;
+  grid: repeat(3, 160px) / auto-flow 160px;
+
+  margin: auto;
+  padding: 1rem;
+  /* background-color: #393e46; */
+
+  background: rgb(151, 163, 222);
+  background: radial-gradient(
+    circle,
+    rgba(151, 163, 222, 1) 0%,
+    rgba(57, 62, 70, 1) 59%
+  );
+
+  border-radius: 25px;
+
+  box-shadow: 10px 10px 30px #000000, -10px -10px 30px #979797;
+
+  border: 2px outset #a8a8a8;
+}
+
+
+.imageingridsquare{
+
+  width: 130px;
+  height: 130px;
+  margin: auto;
+
+}
+
+
+.position {
+  display: block;
+  text-align: center;
+}
+
+#container > div {
+  /* background-color: #8ca0ff; */
+  background-color: #393e46;
+
+  width: 157px;
+  height: 157px;
+  padding-top: 13.5px;
+}
+
+
+.test{
+
+ /* background-color: #8ca0ff; */
+ background-color: #393e46;
+
+ width: 157px;
+ height: 157px;
+ padding-top: 13.5px;
+
+
+
+}
+
+
+.btn {
+  padding: 1rem;
+}
+
+.btn-outline-primary {
+  color: rgba(151, 163, 222, 1);
+  border-color: rgba(151, 163, 222, 1);
+}
+
+.btn-outline-primary:hover {
+  color: #393e46;
+  border-color: #393e46;
+
+  background-color: rgba(151, 163, 222, 1);
+}
+
+body {
+  background-color: #393e46;
+}
+
+/* .icondim{
+
+  height:1rem;
+  width:1rem;
+} */
+
+.icondim {
+  font-size: 40px;
+}
+
+.buttondashboard {
+  /* display: block;
+  text-align: center; */
+
+  position: relative;
+
+  padding: 2rem;
+
+  height: 30rem;
+}
+
+.clickedbuttondashboard{
+
+  padding: 1rem;
+
+  height: null;
+
+  text-align: center;
+
+}
+
+
+
+.btn {
+  height: 74px;
+
+  margin: 2px;
+}
+
+.playbutt {
+  /* margin: auto; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: rgba(151, 163, 222, 1);
+
+  text-align: center;
+  padding: 1rem;
+}
